@@ -26,5 +26,9 @@ Exemplo de implementação:
 
 Exemplo código 1.0
 
+@Test
 private Customer getCustomerByDocument_WhenSendDocumentValid_ExpectedCustomer(){}
+
+@Test(expected = BusinessExpeption.class)
+private Order getOrderByOrderNumber_WhenSendOrderNumberInvalid_ExpectedBusinessExpeption(){}
 
