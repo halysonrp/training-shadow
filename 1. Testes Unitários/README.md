@@ -25,3 +25,6 @@ Exemplo de implementação:
 
 
 Exemplo código 1.0
+
+public Customer getCustomerByDocument_WhenSendDocumentValid_ExpectedCustomer(){}
+
