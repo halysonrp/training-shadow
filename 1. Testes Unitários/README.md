@@ -26,9 +26,20 @@ Exemplo de implementação:
 
 Exemplo código 1.0
 
+```
 @Test
-private Customer getCustomerByDocument_WhenSendDocumentValid_ExpectedCustomer(){}
+private Customer getCustomerByDocument_WhenSendDocumentValid_ExpectedCustomer(){
 
+}
+```
+Exemplo código 2.0
+
+```
 @Test(expected = BusinessExpeption.class)
-private Order getOrderByOrderNumber_WhenSendOrderNumberInvalid_ExpectedBusinessExpeption(){}
+private Order getOrderByOrderNumber_WhenSendOrderNumberInvalid_ExpectedBusinessExpeption(){
+
+}
+```
+
+
 
