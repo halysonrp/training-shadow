@@ -7,8 +7,8 @@ A adoção de um padrão..... tem como objetivo facilitar
 
 ## O que recomendamos?
 
-- Podemos usar para fazer Mocks.
-- Podemos utilizar para o armazenamento em cache, garantindo a resilência, em caso de indisponibilidade dos microservices.
+- Recomendamos para realização de Mocks.
+- Para o armazenamento em cache, garantindo a resilência, em caso de indisponibilidade dos microservices.
 - Utilize o BFF para filtrar informações, ou seja, retornar apenas os atributos necessários para a camada de UI.
 - ⚠ Chamar múltiplas requests... Composição no BFF iremos considerar como boa prática? Ou iremos manter a composição a nível de microservices? A partir de quantas chamadas ou integrações devemos considerar abstrair a composição nos microservices? Existem as duas abordageens.
 - BFF fazendo a composição:
