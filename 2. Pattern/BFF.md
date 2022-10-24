@@ -33,46 +33,24 @@ Racional:
   - Crie logs e gere alertas que te ajudem a identificar possíveis erros. 
 - Logs:
   - Crie logs que te ajudem a identificar possíveis erros. 
-
-
-## Quais as funcionalidades opcionais ?
-
-- Utilize o BFF para fazer Mocks.
-
-## O que não devemos fazer?
-
-- Não devemos manter regras de negócio.
-
-## Exemplos
-
-## Fontes
-
-## Boas práticas
-
-- Utilize o BFF para fazer Mocks.
-- Utilize para o armazenamento em cache, garantindo a resilência, em caso de indisponibilidade dos microservices.
-- Utilize o BFF para filtrar informações, ou seja, retornar apenas os atributos necessários para a camada de UI.
-- Utilize mecanismos de logs.
-- Utilize mecanimos de resiliências a falha como:
-  - Retry
-  - Circuit Breaker
-  - Execução em paralelo ao invés do sequencial.
 - ⚠ Chamar múltiplas requests... Composição no BFF, iremos considerar como boa prática? Ou iremos manter a composição a nível de microservices? A partir de quantas chamadas ou integrações devemos considerar abstrair a composição nos microservices? Existem as duas abordageens.
 - BFF fazendo a composição:
 <img src="https://user-images.githubusercontent.com/12093535/197595185-30e6a9ee-0254-419d-8238-3178782cd5e9.png" width="350" height="350">
 - Microservice fazendo a Composição
 <img src="https://user-images.githubusercontent.com/12093535/197595233-074853c0-3ce2-4ec7-91eb-3fe02c1e6356.png" width="350" height="350">
 
+
+## Quais as funcionalidades opcionais ?
+
+- Utilize o BFF para fazer Mocks.
 - Utilize um BFF por experiência do usuário, se as experiências do iOS e do Android são muito semelhantes, é mais fácil justificar ter um único BFF, caso contrário ter BBFs separados faz mais sentido.
 <img src="https://user-images.githubusercontent.com/12093535/197592299-40f5ecc5-92bb-4e28-8d77-1bf60bce36e7.png" width="350" height="350">
 
 ## O que não devemos fazer?
 
+- Não devemos manter regras de negócio.
 
-
-
-
-
+## Exemplos
 
 ### Fontes:
 
