@@ -1,14 +1,14 @@
-## Boas práticas do BFF
+##  BFF (Backend For Frontend)
 
 Esse material tem como objetivo especificar as boas praticas de utilização do BFF(Backend for frontend) na empresa.
 
 A adoção de um padrão..... tem como objetivo facilitar 
 
 
-## O que recomendamos?
+## Boas práticas
 
-- Recomendamos para realização de Mocks.
-- Para o armazenamento em cache, garantindo a resilência, em caso de indisponibilidade dos microservices.
+- Utilize o BFF para fazer Mocks.
+- Utilize para o armazenamento em cache, garantindo a resilência, em caso de indisponibilidade dos microservices.
 - Utilize o BFF para filtrar informações, ou seja, retornar apenas os atributos necessários para a camada de UI.
 - ⚠ Chamar múltiplas requests... Composição no BFF iremos considerar como boa prática? Ou iremos manter a composição a nível de microservices? A partir de quantas chamadas ou integrações devemos considerar abstrair a composição nos microservices? Existem as duas abordageens.
 - BFF fazendo a composição:
@@ -19,9 +19,9 @@ A adoção de um padrão..... tem como objetivo facilitar
 - Utilize um BFF por experiência do usuário, se as experiências do iOS e do Android são muito semelhantes, é mais fácil justificar ter um único BFF, caso contrário ter BBFs separados faz mais sentido.
 <img src="https://user-images.githubusercontent.com/12093535/197592299-40f5ecc5-92bb-4e28-8d77-1bf60bce36e7.png" width="350" height="350">
 
-## O que não recomendamos?
+## O que não devemos fazer?
 
-- Não recomendamos manter regras de negócio.
+- Não devemos manter regras de negócio.
 
 ## Mono BFF ou Micro BFF's?
 
@@ -29,7 +29,7 @@ Racional:
 
 | Caso de uso   | Mono BFF      | Micro BFF     | 
 | ------------- | ------------- | ------------- |
-| BFF será mantido por mais de uma equipe! | X  | ✔️  |
+| BFF será mantido por mais de uma equipe? | X  | ✔️  |
 | Em caso de indisponibilidade acarretará em alto impacto para a operação!  | X   | ✔️  | 
 
 
