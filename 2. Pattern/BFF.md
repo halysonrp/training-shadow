@@ -27,8 +27,8 @@ Racional:
 - Paralelismo:
   - Opte por realizar chamadas em paralelas ao invés de chamadas sequênciais.
   - Chamadas em paralelas diminuem o tempo de resposta.
-    -Chamada sequencial, representa a soma de todas as requests.
-    -Enquanto a chamada em paralela, representa o maior tempo entre as requests.
+    - Chamada sequencial, representa a soma de todas as requests.
+    - Enquanto a chamada em paralela, representa o maior tempo entre as requests.
 - Monitoramento:
   - Crie logs e gere alertas que te ajudem a identificar possíveis erros. 
 - Logs:
@@ -36,6 +36,8 @@ Racional:
 
 
 ## Quais as funcionalidades opcionais ?
+
+- Utilize o BFF para fazer Mocks.
 
 ## O que não devemos fazer?
 
