@@ -6,6 +6,8 @@ A adoção de um padrão..... tem como objetivo facilitar
 
 ## O que é um BFF?
 
+BFF é um sigla para back-end for front-end — termo criado em 2015 por Phil Calçado, e é um padrão para API que permite equipes a iterarem recursos mais rapidamente e terem controle sobre o backend, sem afetar o frontend e também gerar experiências específicas de acordo com cada pessoa usuária de um determinado produto.
+
 ## Pra que serve? qual sua responsabilidade?
 
 ## Mono BFF ou Micro BFF's?
@@ -50,12 +52,14 @@ Racional:
 
 - Não devemos manter regras de negócio.
 
-## Exemplos
+## Exemplos:
 
 ### Fontes:
 
+O que é BFF:
+https://brasil.uxdesign.cc/quem-%C3%A9-o-bff-na-fila-do-p%C3%A3o-ef58d87bbab0
+
 Pattern: Backends For Frontends:
 https://samnewman.io/patterns/architectural/bff/
-
 
 <img src="https://user-images.githubusercontent.com/12093535/197590032-0dc49c6c-715f-4970-b0e7-7063d0e48592.png" width="280" height="350">
