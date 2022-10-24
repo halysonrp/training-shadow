@@ -18,10 +18,28 @@ Racional:
 | Em caso de indisponibilidade acarretará em alto impacto para a operação!  | X   | ✔️  | 
 
 ## Quais as funcionalidades obrigatórias (composição,  cache, preparação pra front, etc)
+- Cache:
+  - Utilize armazenamento em cache, para garantir a resilência do seu sistema, em caso de indisponibilidade dos microservices, o seu sistema continua operando normalmente.
+- Retry:
+  - Implemente um mecanimo de retentativa em caso obtiver falha na primeira chamada.
+- Filtro:
+  - Utilize o BFF para filtrar/retornar apenas informações que sejam necessárias para a camada de UI.
+- Paralelismo:
+  - Opte por realizar chamadas em paralelas ao invés de chamadas sequênciais.
+  - Chamadas em paralelas diminuem o tempo de resposta.
+    -Chamada sequencial, representa a soma de todas as requests.
+    -Enquanto a chamada em paralela, representa o maior tempo entre as requests.
+- Monitoramento:
+  - Crie logs e gere alertas que te ajudem a identificar possíveis erros. 
+- Logs:
+  - Crie logs que te ajudem a identificar possíveis erros. 
+
 
 ## Quais as funcionalidades opcionais ?
 
 ## O que não devemos fazer?
+
+- Não devemos manter regras de negócio.
 
 ## Exemplos
 
@@ -48,7 +66,6 @@ Racional:
 
 ## O que não devemos fazer?
 
-- Não devemos manter regras de negócio.
 
 
 
