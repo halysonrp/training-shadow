@@ -4,6 +4,28 @@ Esse material tem como objetivo especificar as boas praticas de utilização do 
 
 A adoção de um padrão..... tem como objetivo facilitar 
 
+## O que é um BFF?
+
+## Pra que serve? qual sua responsabilidade?
+
+## Mono BFF ou Micro BFF's?
+
+Racional:
+
+| Caso de uso   | Mono BFF      | Micro BFF     | 
+| ------------- | ------------- | ------------- |
+| BFF será mantido por mais de uma equipe! | X  | ✔️  |
+| Em caso de indisponibilidade acarretará em alto impacto para a operação!  | X   | ✔️  | 
+
+## Quais as funcionalidades obrigatórias (composição,  cache, preparação pra front, etc)
+
+## Quais as funcionalidades opcionais ?
+
+## O que não devemos fazer?
+
+## Exemplos
+
+## Fontes
 
 ## Boas práticas
 
@@ -28,14 +50,7 @@ A adoção de um padrão..... tem como objetivo facilitar
 
 - Não devemos manter regras de negócio.
 
-## Mono BFF ou Micro BFF's?
 
-Racional:
-
-| Caso de uso   | Mono BFF      | Micro BFF     | 
-| ------------- | ------------- | ------------- |
-| BFF será mantido por mais de uma equipe! | X  | ✔️  |
-| Em caso de indisponibilidade acarretará em alto impacto para a operação!  | X   | ✔️  | 
 
 
 
