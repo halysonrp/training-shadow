@@ -29,7 +29,7 @@ Racional:
 
 | Caso de uso   | Mono BFF      | Micro BFF     | 
 | ------------- | ------------- | ------------- |
-| BFF será mantido por mais de uma equipe? | X  | ✔️  |
+| BFF será mantido por mais de uma equipe! | X  | ✔️  |
 | Em caso de indisponibilidade acarretará em alto impacto para a operação!  | X   | ✔️  | 
 
 
