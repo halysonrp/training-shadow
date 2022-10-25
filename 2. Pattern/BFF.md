@@ -19,7 +19,7 @@ Racional:
 | BFF será mantido por mais de uma equipe! | X  | ✔️  |
 | Em caso de indisponibilidade acarretará em alto impacto para a operação!  | X   | ✔️  | 
 
-## Quais as funcionalidades obrigatórias (composição,  cache, preparação pra front, etc)
+## Quais as funcionalidades obrigatórias?
 - Cache:
   - Utilize armazenamento em cache, para garantir a resilência do seu sistema, em caso de indisponibilidade dos microservices, o seu sistema continua operando normalmente.
 - Retry:
