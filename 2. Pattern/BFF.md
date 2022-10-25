@@ -2,8 +2,6 @@
 
 Esse material tem como objetivo especificar as boas praticas de utilização do BFF(Backend for frontend) na empresa.
 
-A adoção de um padrão..... tem como objetivo facilitar 
-
 ## O que é um BFF?
 
 BFF é um sigla para back-end for front-end — termo criado em 2015 por Phil Calçado, e é um padrão para API que permite equipes a iterarem recursos mais rapidamente e terem controle sobre o backend, sem afetar o frontend e também gerar experiências específicas de acordo com cada pessoa usuária de um determinado produto.
