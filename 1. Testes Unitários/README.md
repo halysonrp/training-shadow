@@ -10,7 +10,7 @@ A escolha de um padrão para nomenclatura de testes unitários, tem como objetiv
 O nosso padrão é dividido em 3 etapas:
 
 
-1. Informe o nome do método ao qual está sendo testado:
+1. Informe o mesmo nome do método ao qual está sendo testado:
  - getCustomerByDocument_
 
 2. Defina a condição do método que está sendo testado através da Clausula When: 
